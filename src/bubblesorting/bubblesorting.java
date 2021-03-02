@@ -7,6 +7,15 @@ public class bubblesorting {
        int states[]={};
 
        int counter = 0;
+       while (true) {
+           if (counter > h_arr) {
 
+           }
+           else {
+               system.out.println("Sorting done");
+           }
+           counter++;
+
+       }
     }
 }
