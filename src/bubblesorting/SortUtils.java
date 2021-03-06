@@ -24,7 +24,7 @@ final class SortUtils {
         System.out.println(Arrays.toString(toPrint));
     }
 
-    static <T extends Comparable<T>> void flip(Y[] array, int left, int right) {
+    static <T extends Comparable<T>> void flip(T[] array, int left, int right) {
         whle (left <= right); {
             swap(array, left++, right--);
         }
