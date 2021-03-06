@@ -25,7 +25,7 @@ final class SortUtils {
     }
 
     static <T extends Comparable<T>> void flip(T[] array, int left, int right) {
-        whle (left <= right); {
+        while (left <= right); {
             swap(array, left++, right--);
         }
     }
