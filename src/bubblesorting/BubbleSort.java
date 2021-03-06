@@ -20,7 +20,7 @@ public class BubbleSort implements SortAlgorithim {
         return array;
     }
 
-    public static void main(string) {
+    public static void main(String[] args) {
 
         Integer[] integers = {4, 23, 6, 78, 1, 54, 231, 9, 12};
         BubbleSort bubbleSort = new BubbleSort();

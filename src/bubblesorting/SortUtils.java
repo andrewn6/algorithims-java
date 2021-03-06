@@ -1,7 +1,7 @@
 package bubblesorting;
 
 import java.util.Arrays;
-import java.utils.List;
+import java.util.List;
 
 final class SortUtils {
     static <T> boolean swap(T[] array, int idx, int idy) {
